@@ -1,0 +1,263 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .site__header {
+        font-size: 8rem;
+    }
+    .site__header--text {
+        font-size: 1.4rem;
+    }
+    .menu__link {
+        padding: 20px 20px;
+    }
+    .banner__image--text {
+        font-size: 5rem;
+    }
+    .section__footer--text {
+        font-size: 5rem;
+    }
+    .section__footer div {
+        margin: 5%;
+    }
+    .label {
+        font-size: 1.7em;
+    }
+    .btn--top img {
+        width: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .site__header {
+        font-size: 6rem;
+    }
+    .site__header--text {
+        font-size: 1.3rem;
+    }
+    .menu {
+        font-size: 1.5em;
+    }
+
+    .menu__link {
+        padding: 10px 20px;
+    }
+
+    .banner__image {
+        height: 300px;
+    }
+    .banner__image--text {
+        font-size: 4rem;
+    }
+    .section__container {
+        width: 600px;
+        height: 500px;
+    }
+    .section__container h2 {
+        font-size: 20rem;
+    }
+    .section__container span {
+        font-size: 2.5rem;
+        top: 40px;
+        left: 140px;
+        width: 80px;
+    }
+    .text {
+        top: 90px;
+        font-size: 1.7em;
+        left: 140px;
+    }
+
+    .section__footer--text {
+        font-size: 4rem;
+    }
+    .section__footer div {
+        margin: 5%;
+    }
+    .button {
+        font-size: 1.2rem;
+        width: 150px;
+        margin-top: 20px;
+        left: 140px;
+        bottom: 20px;
+        position: absolute;
+    }
+    .contact {
+        width: 400px;
+    }
+    .label {
+        font-size: 1.5em;
+    }
+    .btn--top img {
+        width: 30px;
+    }
+    .send {
+        font-size: 2em;
+        padding: 10px;
+        width: 150px;
+    }
+    .copywright {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .site__header {
+        font-size: 4.5rem;
+    }
+    .site__header--text {
+        font-size: 1.2rem;
+    }
+
+    .menuToggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+    }
+    .menuToggle input {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        top: 5px;
+        right: 10px;
+        opacity: 0;
+        z-index: 10;
+        cursor: pointer;
+    }
+    .menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #5f1b98;
+        border-radius: 3px;
+        z-index: 2;
+        transform-origin: 4px 0px;
+        transition: all ease-out 0.5s;
+    }
+    .menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    .menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    .menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+    .menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    .menuToggle input:checked ~ span:nth-last-child(2) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    .menu {
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100vw;
+        height: 20vh;
+        background: rgba(180, 91, 255, 0.7);
+        list-style-type: none;
+        transform: translate(100%, 0);
+        transition: all ease-out 0.5s;
+    }
+
+    .menu__item {
+        font-size: 1rem;
+        padding: 10px 0px;
+    }
+    .menuToggle input:checked ~ ul {
+        transform: scale(1.0, 1.0);
+        opacity: 1;
+        transform: translate(-90%, 0);
+    }
+    .wave_1,
+    .wave_2,
+    .wave_3 {
+        height: 60px;
+    }
+    .wave_1 {
+        bottom: 50px;
+    }
+
+    .wave_2 {
+        bottom: -30px;
+    }
+    .wave_3 {
+        bottom: -30px;
+    }
+
+    .section__container {
+        min-width: 80vw;
+        height: 350px;
+    }
+    .section__image img {
+        width: 400px;
+    }
+    .text {
+        width: 85vw;
+        left: 50px;
+        margin-bottom: 50px;
+        top: 50px;
+        left: 1%;
+        text-align: justify;
+        font-size: 1rem;
+    }
+    .section__container h2 {
+        font-size: 6rem;
+        letter-spacing: 0px;
+        margin: 0;
+    }
+    .section__container span {
+        left: 60px;
+        top: 10px;
+        font-size: 2rem;
+        white-space: normal;
+        width: 100vw;
+    }
+    .button {
+        margin: 30px 0px;
+        left: 0px;
+        bottom: 0px;
+        font-size: 1.2rem;
+        padding: 10px;
+        position: absolute;
+    }
+
+    .banner__image {
+        height: 200px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner__image--text {
+        font-size: 2.5rem;
+    }
+    .section__footer {
+        margin-top: 50px;
+    }
+    .section__footer--text p {
+        font-size: 3rem;
+        line-height: 1.2em;
+        margin: 30px;
+    }
+    .label {
+        font-size: 1.2rem;
+    }
+    .input {
+        width: 300px;
+    }
+    .message {
+        height: 100px;
+        width: 300px;
+        margin-top: 15px;
+    }
+    .btn--top img {
+        width: 20px;
+    }
+    .send {
+        font-size: 1.3rem;
+    }
+}
