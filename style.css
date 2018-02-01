@@ -9,7 +9,7 @@ body {
 /* HEADER */
 
 .main__header {
-    height: 50vh;
+    height: 500px;
     background: linear-gradient(45deg, #fe6b83 30%, #9326f0 100%);
     width: 100vw;
     display: flex;
@@ -22,7 +22,7 @@ body {
 
 .site__header {
     text-align: center;
-    font-size: 17em;
+    font-size: 7rem;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
 .site__header--text {
     letter-spacing: 2px;
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     opacity: 0.8;
     z-index: 2;
 }
@@ -53,7 +53,6 @@ body {
     bottom: -50px;
 }
 
-
 /* MENU */
 
 .menu {
@@ -62,7 +61,7 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    font-size: 1.7em;
+    font-size: 1.2em;
     color: rgb(88, 39, 130);
     letter-spacing: 2px;
     height: 100px;
@@ -95,7 +94,6 @@ body {
     display: none;
 }
 
-
 /* BACK TO TOP */
 
 .btn--top {
@@ -104,7 +102,7 @@ body {
     right: 20px;
     z-index: 99;
     color: black;
-    border: 3px solid;
+    border: 2px solid;
     outline: none;
     background-color: transparent;
     cursor: pointer;
@@ -119,7 +117,7 @@ body {
 }
 
 .btn--top img {
-    width: 50px;
+    width: 20px;
 }
 
 /* SECTION */
@@ -132,7 +130,8 @@ body {
 }
 
 .section__container {
-    width: 700px;
+    width: 600px;
+    height: 360px;
     flex: 0 1 auto;
     position: relative;
     margin-left: 4%;
@@ -150,16 +149,16 @@ body {
 }
 
 .section__container h2 {
-    font-size: 25rem;
+    font-size: 15rem;
     letter-spacing: 2rem;
 }
 
 .section__container span {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #5f1b98;
     position: absolute;
-    top: 50px;
-    left: 160px;
+    top: 30px;
+    left: 100px;
     letter-spacing: 2px;
     white-space: nowrap;
 }
@@ -178,25 +177,26 @@ body {
 
 .text {
     font-family: "Roboto", sans-serif;
-    font-size: 2em;
-    line-height: 1.3em;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 1px;
     position: absolute;
-    top: 110px;
-    left: 160px;
+    top: 80px;
+    left: 100px;
     text-align: justify;
 }
 
 .button {
-    border: 3px solid #e579d7;
+    border: 2px solid #e579d7;
     background-color: transparent;
-    font-size: 1.5rem;
-    width: 200px;
+    font-size: 1rem;
+    width: 150px;
     padding: 20px 50px;
     letter-spacing: 1px;
     cursor: pointer;
-    position: relative;
-    left: 160px;
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
     text-align: center;
     outline: 0;
     transition: 0.3s;
@@ -217,7 +217,7 @@ body {
 }
 
 
-/* PINK IMAGE */
+/* PINK BANNER */
 
 .banner__image {
     background-image: url(img/Layer%207.png);
@@ -234,7 +234,7 @@ body {
 }
 
 .banner__image--text {
-    font-size: 8rem;
+    font-size: 6rem;
     color: white;
 }
 
@@ -244,7 +244,7 @@ body {
 }
 
 
-/* FOOTER */
+/* CONTACT */
 
 .section__footer {
     min-height: 50vh;
@@ -259,23 +259,24 @@ body {
 
 .section__footer div {
     flex: 0 1 auto;
-    margin: 0 5%;
 }
 
 .section__footer--text {
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1.5em;
+    padding: 30px;
 }
 
 .contact {
     flex: 0 1 auto;
     display: flex;
     flex-flow: column nowrap;
+    margin: 50px;
 }
 
 .label {
     font-family: "Roboto", sans-serif;
-    font-size: 2em;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 3em;
     cursor: pointer;
@@ -284,13 +285,13 @@ body {
 .input {
     background-color: transparent;
     border: none;
-    border-bottom: 3px solid #5f1b98;
+    border-bottom: 2px solid #5f1b98;
     cursor: text;
 }
 
 .message {
-    border: 3px solid #5f1b98;
-    height: 120px;
+    border: 2px solid #5f1b98;
+    height: 100px;
     background-color: transparent;
     margin-bottom: 40px;
 }
@@ -298,11 +299,11 @@ body {
 .send {
     color: white;
     padding: 15px 30px;
-    width: 200px;
-    border: 3px solid white;
+    width: 150px;
+    border: 2px solid white;
     background-color: transparent;
     letter-spacing: 2px;
-    font-size: 2.2em;
+    font-size: 1rem;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -319,7 +320,7 @@ body {
 }
 
 .copywright {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     letter-spacing: 1px;

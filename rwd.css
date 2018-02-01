@@ -1,54 +1,27 @@
-@media (min-width: 769px) and (max-width: 1024px) {
-    .site__header {
-        font-size: 8rem;
-    }
-    .site__header--text {
-        font-size: 1.4rem;
-    }
-    .menu__link {
-        padding: 20px 20px;
-    }
-    .banner__image--text {
-        font-size: 5rem;
-    }
-    .section__footer--text {
-        font-size: 5rem;
-    }
-    .section__footer div {
-        margin: 5%;
-    }
-    .label {
-        font-size: 1.7em;
-    }
-    .btn--top img {
-        width: 30px;
-    }
-}
-
 @media (min-width: 481px) and (max-width: 768px) {
     .site__header {
         font-size: 6rem;
     }
     .site__header--text {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .menu {
-        font-size: 1.5em;
+        font-size: 0.8rem;
     }
 
     .menu__link {
-        padding: 10px 20px;
+        padding: 5px 20px;
     }
 
     .banner__image {
         height: 300px;
     }
     .banner__image--text {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .section__container {
         width: 600px;
-        height: 500px;
+        height: 420px;
     }
     .section__container h2 {
         font-size: 20rem;
@@ -81,29 +54,36 @@
     }
     .contact {
         width: 400px;
+        margin: 0px;
     }
     .label {
         font-size: 1.5em;
     }
     .btn--top img {
-        width: 30px;
+        width: 25px;
     }
     .send {
-        font-size: 2em;
+        font-size: 1.1rem;
         padding: 10px;
-        width: 150px;
+        width: 120px;
     }
     .copywright {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
 
 @media (max-width: 480px) {
-    .site__header {
-        font-size: 4.5rem;
+
+    .main__header {
+        height: 60vh;
     }
+
+    .site__header {
+        font-size: 4rem;
+    }
+
     .site__header--text {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .menuToggle {
@@ -161,70 +141,74 @@
         height: 20vh;
         background: rgba(180, 91, 255, 0.7);
         list-style-type: none;
-        transform: translate(100%, 0);
         transition: all ease-out 0.5s;
+        transform: translate(100%, 0);
+        left: 130%;
+        opacity: 0.7;
     }
 
     .menu__item {
-        font-size: 1rem;
+        font-size: 0.7rem;
         padding: 10px 0px;
     }
     .menuToggle input:checked ~ ul {
         transform: scale(1.0, 1.0);
         opacity: 1;
-        transform: translate(-90%, 0);
+        transform: translate(-100%, 0);
     }
     .wave_1,
     .wave_2,
     .wave_3 {
-        height: 60px;
+        height: 50px;
     }
     .wave_1 {
-        bottom: 50px;
+        bottom: 20px;
     }
 
     .wave_2 {
         bottom: -30px;
     }
     .wave_3 {
-        bottom: -30px;
+        bottom: -20px;
     }
 
     .section__container {
-        min-width: 80vw;
-        height: 350px;
+        width: 80vw;
+        margin: 0px;
     }
     .section__image img {
-        width: 400px;
+        width: 350px;
     }
     .text {
-        width: 85vw;
+        position: static;
+        width: 80vw;
         left: 50px;
-        margin-bottom: 50px;
-        top: 50px;
-        left: 1%;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        top: 70px;
+        left: 0px;
         text-align: justify;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .section__container h2 {
-        font-size: 6rem;
+        position: static;
+        font-size: 4rem;
         letter-spacing: 0px;
-        margin: 0;
     }
     .section__container span {
-        left: 60px;
-        top: 10px;
-        font-size: 2rem;
+        left: 50px;
+        top: 5px;
+        font-size: 1.6rem;
         white-space: normal;
-        width: 100vw;
+        letter-spacing: 1px;
     }
     .button {
-        margin: 30px 0px;
+        margin-top: 0px;
+        position: static;
         left: 0px;
-        bottom: 0px;
-        font-size: 1.2rem;
-        padding: 10px;
-        position: absolute;
+        font-size: 0.8rem;
+        padding: 15px;
+        width: 120px;
     }
 
     .banner__image {
@@ -236,28 +220,34 @@
         font-size: 2.5rem;
     }
     .section__footer {
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .section__footer--text p {
-        font-size: 3rem;
-        line-height: 1.2em;
-        margin: 30px;
+        font-size: 2.5rem;
+        line-height: 1.5em;
+        margin: 10px;
+    }
+    .contact {
+        width: 250px;
+        margin: 0px;
     }
     .label {
-        font-size: 1.2rem;
-    }
-    .input {
-        width: 300px;
+        font-size: 0.8rem;
+        line-height: 2.5em;
     }
     .message {
-        height: 100px;
-        width: 300px;
+        height: 80px;
         margin-top: 15px;
+        margin-bottom: 20px;
     }
     .btn--top img {
-        width: 20px;
+        width: 15px;
     }
     .send {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
+        width: 100px;
+        padding: 10px;
     }
-}
+    .copywright {
+        font-size: 0.9em;
+    }
